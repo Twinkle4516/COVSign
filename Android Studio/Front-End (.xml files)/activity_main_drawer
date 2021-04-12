@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+
+        android:background="@color/dark_blue">
+        <item
+            android:id="@+id/nav_tracking"
+            android:icon="@drawable/ic_baseline_medication_24"
+            android:title="@string/nav_track" />
+        <item
+            android:id="@+id/nav_dt"
+            android:icon="@drawable/ic_baseline_dynamic_feed_24"
+            android:title="@string/nav_DT"/>
+
+        <item
+            android:id="@+id/nav_transit"
+            android:icon="@drawable/ic_baseline_directions_bus_filled_24"
+            android:title="@string/nav_transit" />
+
+        <item
+            android:id="@+id/nav_risks"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/nav_risks" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_baseline_report_problem_24"
+            android:title="@string/nav_report" />
+    </group>
+</menu>
