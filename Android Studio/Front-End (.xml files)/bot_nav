@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent">
+
+    <item
+        android:id="@+id/home"
+        android:actionLayout="@layout/activity_homescreen"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/Chat"
+        android:actionLayout="@layout/activity_chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="@string/Chat" />
+
+    <item
+        android:id="@+id/panic"
+        android:actionLayout="@layout/activity_p3"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:title="@string/panic_button"/>
+
+    <item
+        android:id="@+id/set"
+        android:actionLayout="@layout/activity_set"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings"/>
+
+    <item
+        android:id="@+id/veh"
+        android:actionLayout="@layout/activity_veh"
+        android:icon="@drawable/ic_baseline_local_shipping_24"
+        android:title="@string/vehicle"/>
+
+</menu>
