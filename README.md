@@ -1,5 +1,5 @@
 # COVSign by Team P15
-A prominent web app that looks after the validation of Covid-19 drugs being transited to Hospitals.
+##A prominent web app that looks after the validation of Covid-19 drugs being transited to Hospitals.
 
 Team Members:<br/>
 [Shraddha Gopalakrishnan](https://www.linkedin.com/in/shraddhag16/)<br/>
