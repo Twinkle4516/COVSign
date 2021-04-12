@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rig_covsign">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+ <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RIGCOVSign">
+        <activity android:name=".emergency">
+            <intent-filter>
+                <action android:name="android.intent.action.emergency" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P1">
+            <intent-filter>
+                <action android:name="android.intent.action.P1" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P2">
+            <intent-filter>
+                <action android:name="android.intent.action.P2" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P3">
+            <intent-filter>
+                <action android:name="android.intent.action.P3" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nav_drawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/Theme.RIGCOVSign.NoActionBar" />
+        <activity android:name=".set">
+            <intent-filter>
+                <action android:name="android.intent.action.set" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".veh">
+            <intent-filter>
+                <action android:name="android.intent.action.veh" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".panic">
+            <intent-filter>
+                <action android:name="android.intent.action.panic" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chat">
+            <intent-filter>
+                <action android:name="android.intent.action.Chat" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Homscrn">
+            <intent-filter>
+                <action android:name="android.intent.action.Homscrn" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Form">
+            <intent-filter>
+                <action android:name="android.intent.action.Form" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
