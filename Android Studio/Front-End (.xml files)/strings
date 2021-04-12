@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">RIG-COVSign</string>
+    <string name="dynamic_trust">DYNAMIC TRUST</string>
+    <string name="transit">TRANSIT</string>
+    <string name="risks">RISKS</string>
+    <string name="report">REPORT</string>
+    <string name="tracking">TRACKING</string>
+    <string name="home">Home</string>
+    <string name="panic_button">Panic Button</string>
+    <string name="settings">Settings</string>
+    <string name="Chat">chat</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="nav_track">Tracking</string>
+    <string name="nav_transit">Transit</string>
+    <string name="nav_risks">Risks</string>
+    <string name="nav_report">Report</string>
+    <string name="na">nav_dt</string>
+    <string name="nav_DT">Dynamic Trust</string>
+    <string name="MENU">Menu</string>
+    <string name="title_activity_nav_drawer">nav_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_act_chat">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="chat">Chat</string>
+    <string name="zero">0</string>
+    <string name="title">Provide a short description of the incident</string>
+    <string name="incident_title">Incident Title</string>
+    <string name="datetime">Date and Time</string>
+    <string name="invalid_title">Please Enter Valid Title</string>
+    <string name="dtime">Input the Data and Time of incident</string>
+    <string name="invalid_datetime">Please Enter a Valid Input</string>
+    <string name="todo">TODO</string>
+</resources>
