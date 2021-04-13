@@ -9,3 +9,4 @@ Team Members:<br/>
 [Saumya Ransingh](https://www.linkedin.com/in/saumya-ransingh/)<br/>
 
 
+![alt text](https://github.com/RIG-Inc/COVSign/blob/main/Android%20Studio/images/splash.png)
